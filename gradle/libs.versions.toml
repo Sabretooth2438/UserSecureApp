@@ -1,5 +1,6 @@
 [versions]
 agp = "8.8.0"
+appcompat = "1.7.0"
 converterGson = "2.9.0"
 kotlin = "2.0.0"
 coreKtx = "1.15.0"
@@ -14,6 +15,7 @@ recyclerview = "1.4.0"
 retrofit = "2.9.0"
 
 [libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
